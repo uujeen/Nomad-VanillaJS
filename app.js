@@ -1,11 +1,6 @@
-const a = 1; // const can't be changed, let can be change later also you can use var, but nowadays, we don't
-const b = 5;
-let myName = "Eugene";
-
-console.log(a);
-console.log(b);
-console.log("hello " + myName);
-
-myName = "Eugene Kang"
-
-console.log("My name is " + myName);
+const amIFat = true; // true = 1 or false = 0
+const amILogin = null; // null means variable has nothing
+let something; // create memory of variable in computer, but variable has nothing and undefined "value"
+console.log(amIFat);
+console.log(amILogin);
+console.log(something);
