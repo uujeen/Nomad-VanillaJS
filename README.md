@@ -24,3 +24,16 @@ console.log(daysOfWeek[4]);
 // Add one more Item to Array
 daysOfWeek.push("sun");
 ```
+
+## Obejct
+
+`Object` is different compared with array, array has same values, but Objects have different properties.
+<br>For example, if we make array named "daysOfWeek", array has days, but Objects named player, have different properties.
+<br>`Objects` allow us to save data that has some properties 
+```
+const player = {
+    name: "Eugene",
+    points: 10,
+    fat: false,
+};
+```
