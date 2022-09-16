@@ -6,7 +6,8 @@ Like a function `print`
 
 >## const, let, var
 
-`const` can't be changed, `let` can be change, also you can use `var`, but nowadays we don't. Cuz we can't check it would be changed or not, if use var.
+`const` can't be changed, `let` can be change, also you can use `var`, but nowadays we don't. Cuz `(hoisting)` we can't check it would be changed or not, if use var.
+<br> * Hoisting, It's feature of JS. wherever declartion of variable is, It's read first than code.
 
 >## true or false, null, undefined
 
