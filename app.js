@@ -5,15 +5,20 @@ const calculator ={
     minus: function(a,b){
         return a - b;
     },
+    times: function(a,b){
+        return a * b;
+    },
     divide: function(a,b){
-        console.log(a/b);
+        return a / b;
     },
     powerOf: function(a,b){
-        console.log(a**b);
+        return a ** b;
     }
 };
 
-console.log(calculator.plus(5,2));
-console.log(calculator.minus(5,2));
-calculator.divide(4,2);
-calculator.powerOf(5,3);
+const plusResult = calculator.plus(2,3);
+const minusResult = calculator.minus(plusResult, 10);
+const timeResult = calculator.times(10,minusResult);
+const divResult = calculator.divide(timeResult, plusResult);
+const powResult = calculator.powerOf(divResult, minusResult);
+console.log(plusResult,minusResult,timeResult,divResult,powResult);
