@@ -1,9 +1,9 @@
 const calculator ={
     plus: function(a,b){
-        return (a+b);
+        return a + b;
     },
     minus: function(a,b){
-        return (5-2);
+        return a - b;
     },
     divide: function(a,b){
         console.log(a/b);
@@ -14,6 +14,6 @@ const calculator ={
 };
 
 console.log(calculator.plus(5,2));
-calculator.minus(5,2);
+console.log(calculator.minus(5,2));
 calculator.divide(4,2);
 calculator.powerOf(5,3);
